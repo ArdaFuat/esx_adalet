@@ -65,8 +65,7 @@ Config.adaletStations = {
 		}
 
 	}
-
-}--]]
+--]]
 
 Config.AuthorizedWeapons = {
 		recruit = {

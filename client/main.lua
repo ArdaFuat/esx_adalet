@@ -86,23 +86,23 @@ function OpenCloakroomMenu()
 	local elements = {
 		{ label = _U('citizen_wear'), value = 'citizen_wear' },
 		--{ label = _U('bullet_wear'), value = 'bullet_wear' },
-		{ label = _U('gilet_wear'), value = 'gilet_wear' }
+		--{ label = _U('gilet_wear'), value = 'gilet_wear' }
 	}
 
 	if grade == 'recruit' then
-		table.insert(elements, {label = _U('adalet_wear'), value = 'recruit_wear'})
+		table.insert(elements, {label = _U('sergeant_wear'), value = 'sergeant_wear'})
 	elseif grade == 'officer' then
-		table.insert(elements, {label = _U('adalet_wear'), value = 'officer_wear'})
+		table.insert(elements, {label = _U('sergeant_wear'), value = 'sergeant_wear'})
 	elseif grade == 'sergeant' then
-		table.insert(elements, {label = _U('adalet_wear'), value = 'sergeant_wear'})
+		table.insert(elements, {label = _U('sergeant_wear'), value = 'sergeant_wear'})
 	elseif grade == 'intendent' then
-		table.insert(elements, {label = _U('adalet_wear'), value = 'intendent_wear'})
+		table.insert(elements, {label = _U('sergeant_wear'), value = 'sergeant_wear'})
 	elseif grade == 'lieutenant' then
-		table.insert(elements, {label = _U('adalet_wear'), value = 'lieutenant_wear'})
+		table.insert(elements, {label = _U('sergeant_wear'), value = 'sergeant_wear'})
 	elseif grade == 'chef' then
-		table.insert(elements, {label = _U('adalet_wear'), value = 'chef_wear'})
+		table.insert(elements, {label = _U('sergeant_wear'), value = 'sergeant_wear'})
 	elseif grade == 'boss' then
-		table.insert(elements, {label = _U('adalet_wear'), value = 'boss_wear'})
+		table.insert(elements, {label = _U('sergeant_wear'), value = 'sergeant_wear'})
 	end
 
 	if Config.EnableNonFreemodePeds then
